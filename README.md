@@ -1,12 +1,13 @@
-# 00 - 코드 변경
+# Fullstack Docs
 
-## staging
+각종 문서들을 모아 놓은 저장소입니다.
 
-`git add <file name>`
-or
-`git add .`
+## 01 - Git
 
-## commit
+1. add_commit
 
-`git commit -m "some message..."`
+2. clone / remote_add
 
+3. fork
+
+## 02 - API
