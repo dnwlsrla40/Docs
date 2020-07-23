@@ -1,0 +1,51 @@
+{
+  "_id": {
+    "$oid": "5f15b617f072c95816ddbf40"
+  },
+  "comments": [
+    {
+      "writer": {
+        "$oid": "5f15b67c6272f22ef18515cc"
+      },
+      "contents": "좋은 내용 감사합니다."
+    },
+    {
+      "writer": {
+        "$oid": "5f15b6c46272f22ef18515cd"
+      },
+      "contents": "친절하게 작성해주셔서 감사합니다."
+    }
+  ],
+  "tags": ["js", "react", "spring"],
+  "author": {
+    "$oid": "5f15b71f6272f22ef18515ce"
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1463587200000"
+    }
+  },
+  "context": "이 글은 테스트용 글입니다.",
+  "deleted": {
+    "$date": {
+      "$numberLong": "1595257200000"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1595257200000"
+    }
+  },
+  "hit": {
+    "$numberLong": "30"
+  },
+  "heart": {
+    "$numberLong": "4"
+  },
+  "title": "테스트용 제목1",
+  "series": "시리즈가 뭔지 모르겠네요",
+  "thumbnail": "https://images.unsplash.com/photo-1594672011116-298182da5f63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+  "url": "무슨 기능이죠?",
+  "isPrivate": true,
+  "isCompleted": true
+}

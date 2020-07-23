@@ -46,19 +46,19 @@ Array(Type) : Type으로 된 배열의 형태를 가집니다.
 다른 테이블과 혼동이 있을 만한 column과 velog 자체에서 제공하는 특수 기능들에 관한 추가 설명입니다.
 
 series : velog 페이지에서 제공하는 주제가 같은 post끼리 모아놓을 수 있습니다.  
-<img src=../img/series.JPG alt="series" width="500" height="300">  
+<img src=../img/BE/series.JPG alt="series" width="500" height="300">  
 
 profile_image : 개인 페이지의 자신의 프로필 사진입니다.  
-<img src=../img/profile.JPG alt="profile_image" width="500" height="200">  
+<img src=../img/BE/profile.JPG alt="profile_image" width="500" height="200">  
 
 velog_name : velog 페이지의 velog 이름입니다.  
-<img src=../img/velog_name.JPG alt="velog_name" width="500" height="400">  
+<img src=../img/BE/velog_name.JPG alt="velog_name" width="500" height="400">  
 
 short_intro : 개인 페이지의 한 줄 소개입니다.  
-<img src=../img/short_intro.JPG alt="short_intro" width="500" height="200">  
+<img src=../img/BE/short_intro.JPG alt="short_intro" width="500" height="200">  
 
 intro : velog 페이지의 자신의 velog 소개입니다.  
-<img src=../img/intro.JPG alt="intro" width="500" height="400">  
+<img src=../img/BE/intro.JPG alt="intro" width="500" height="400">  
 
 ### Post Table
 
@@ -86,10 +86,10 @@ intro : velog 페이지의 자신의 velog 소개입니다.
 다른 테이블과 혼동이 있을 만한 column과 velog 자체에서 제공하는 특수 기능들에 관한 추가 설명입니다.
 
 url : velog에서는 사용자가 자신의 post의 url을 지정할 수 있습니다.  
-<img src=../img/url.JPG alt="profile_image" width="500" height="300">  
+<img src=../img/BE/url.JPG alt="profile_image" width="500" height="300">  
 
 series : post를 등록할 때 시리즈에 포함시킬 건지 정할 수 있습니다.  
-<img src=../img/post_series.JPG alt="profile_image" width="500" height="300">  
+<img src=../img/BE/post_series.JPG alt="profile_image" width="500" height="300">  
 
 ### Comment Table
 

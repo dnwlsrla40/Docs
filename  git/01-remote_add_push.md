@@ -7,7 +7,7 @@
 그것을 가능하게 해주는 많은 서비스중 가장 유명하면서 저희가 사용해볼 서비스가  
 바로 `GitHub` 입니다.
 
-![github](../img/git-01-github.png)
+![github](../img/git/git-01-github.png)
 
 지금부터 저희가 해볼 것은
 
@@ -25,7 +25,7 @@
 
 `git remote -v`
 
-![remote01](../img/git-01-remote01.png)
+![remote01](../img/git/git-01-remote01.png)
 
 현재 연결된 remote 저장소가 하나도 없기 때문에 아무 반응이 없는 것이 정상입니다.
 
@@ -35,20 +35,20 @@
 github에 가입을 먼저 해주세요  
 가입이 완료가 되셨다면 우측 상단에 작은 아바타가 보이실겁니다.
 
-![github01](../img/git-01-github01.png)
+![github01](../img/git/git-01-github01.png)
 
 `Your repositories` 를 눌러주세요
 
-![github02](../img/git-01-github02.png)
+![github02](../img/git/git-01-github02.png)
 
 우측 헤더에 보이는 초록색의 `New` 버튼을 눌러주세요
 
-![github03](../img/git-01-github03.png)
+![github03](../img/git/git-01-github03.png)
 
 `Repository name`만 작성해주고 다른 건 그대로 놔두신 뒤에  
 `create repositoriy` 버튼을 눌러주시면 됩니다.
 
-![github04](../img/git-01-github04.png)
+![github04](../img/git/git-01-github04.png)
 
 여지껏 잘 따라오셨다면 이런 화면이 보이실 겁니다.  
 저기 보이는 url을 그대로 복사하시면 (`.git` 까지 포함)  
@@ -58,20 +58,20 @@ github에서 해주어야 하는 것은 끝났습니다.
 
 이제 로컬디렉토리에서 터미널을 열어서 위와 같은 명령어를 입력해줍니다.
 
-![remote_add](../img/git-01-remote_add00.png)
+![remote_add](../img/git/git-01-remote_add00.png)
 
 위와 같이 아무 반응이 없는 것이 정상입니다.  
 이제 저희의 로컬 저장소는 origin이라는 이름의 원격 저장소와 연결이 되었습니다!  
 제대로 연결이 되었는지 확인해보기 위해서는 `git remote -v` 를 통해 확인이 가능합니다.
 
-![remote_add02](../img/git-01-remote_add01.png)
+![remote_add02](../img/git/git-01-remote_add01.png)
 
 위와 같이 두줄이 떳다면 성공입니다.  
 이제 저희가 만들었던 README.md 파일을 원격 저장소에도 올려보겠습니다.
 
 ## git push
 
-![push](../img/git-01-push.png)
+![push](../img/git/git-01-push.png)
 
 스포부터 해버렸습니다.
 
@@ -83,6 +83,6 @@ github에서 해주어야 하는 것은 끝났습니다.
 
 추가가 되었는지 확인하러 가보겠습니다.
 
-![github05](../img/git-01-github05.png)
+![github05](../img/git/git-01-github05.png)
 
 정상적으로 추가가 되었습니다.
