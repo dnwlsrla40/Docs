@@ -16,6 +16,7 @@
 -  [PostImage Table](#PostImage-Table) 
 -  [SeriesPost Table](#SeriesPost-Table)
 -  [UrlSlugHistory Table](#UrlSlugHistory-Table)   
+[Table Mapping](#Table-Mapping)
 
 ## PRE
 
@@ -160,3 +161,7 @@
 |post_id|binary(16)|FK, UNIQUE|post의 id(정보)|
 |user_id|binary(16)|FK, UNIQUE|user의 id(정보)|
 |url_slug|varchar(100)|||
+
+## Table Mapping
+
+![DB table](../img/BE/CampusPick_Mysql_final.png)
