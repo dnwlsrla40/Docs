@@ -3,7 +3,7 @@
 **목차**   
 [PRE](#PRE)  
 [Table Reference](#Table-Reference)  
--  [Account Table](#Account-Table)  
+-  [User Table](#User-Table)  
 -  [Post Table](#Post-Table)  
 -  [Comment Table](#Comment-Table)  
 -  [Tag Table](#Tag-Table)  
@@ -16,6 +16,7 @@
 -  [PostImage Table](#PostImage-Table) 
 -  [SeriesPost Table](#SeriesPost-Table)
 -  [UrlSlugHistory Table](#UrlSlugHistory-Table)   
+[Table Mapping](#Table-Mapping)
 
 ## PRE
 
@@ -31,15 +32,13 @@
 | Key | Type | 속성 | 설명 |
 |---|---|---|---|
 |id|binary(16)|PK, UNIQUE|User의 고유 id|
-|username|varchar(20)|not null|User의 이름(nickname)|
-|password|varchar(32)||User의 password|
+|username|varchar(20)|not null|User의 이름(id)|
 |email|varchar(50)|UNIQUE|User가 가입할 때 사용한 email|
-|display_name|varchar(20)|default username + '.log'|User의 velog name|
+|velog_name|varchar(20)|default username + '.log'|User의 velog name|
 |short_bio|varchar(100)||User의 한 줄 소개|
 |thumbnail|Blob||User의 사진|
 |profile_links|Blob||User의 소셜 정보|
 |about|Text||velog 소개|
-|salt|varchar(4)||비밀번호 암호화를 위한 column|
 
 ### Post Table
 
@@ -160,3 +159,7 @@
 |post_id|binary(16)|FK, UNIQUE|post의 id(정보)|
 |user_id|binary(16)|FK, UNIQUE|user의 id(정보)|
 |url_slug|varchar(100)|||
+
+## Table Mapping
+
+![DB table](../img/BE/CampusPick_Mysql_final.png)
