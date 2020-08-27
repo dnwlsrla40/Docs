@@ -60,3 +60,47 @@
 
 ![2](../img/BE/api/tag2.PNG "[GET] /tags/{tagname}")
 ▲ [No.2]
+
+</br>
+</br>
+
+## **User 회원가입 페이지**
+
+- 모든 API앞에 /velog.io 붙임
+
+|No.|HTTP Method|API|Request (Front→Back)|Response (Back→Front)|비고|
+|---|---|---|---|---|---|
+|1|Post|/sendRegister|email|-|회원가입 mail 전송|
+|2|Get|/register|code|email|url은 mail에 같이 전송 </br> 회원가입 페이지로 이동 </br> Front는 사용하지 않는 API|
+|3|Post|/register|User 정보|Token 객체(accessToken, refreshToken)|velog에서 회원가입 성공 후 바로 로그인 되어 메인페이지로 이동|
+
+</br>
+
+![1](../img/BE/api/send_register.PNG "[Post] /sendRegister")
+▲ [No.1] 전송된 email
+
+![2](../img/BE/api/get_register.PNG "[Get] /register")
+▲ [No.2]
+
+![3](../img/BE/api/post_register.PNG "[Post] /register")
+▲ [No.3]
+
+</br>
+</br>
+
+## **User 로그인 페이지**
+
+- 모든 API앞에 /velog.io 붙임
+
+|No.|HTTP Method|API|Request (Front→Back)|Response (Back→Front)|비고|
+|---|---|---|---|---|---|
+|1|Post|/sendLogin|email|-|로그인 mail 전송|
+|2|GET|/email-login|code|Token 객체(accessToken, refreshToken)|-|
+
+</br>
+
+![1](../img/BE/api/send_login.PNG "[Post] /sendLogin")
+▲ [No.1] 전송된 email
+
+![2](../img/BE/api/email_login.PNG "[GET] /email-login")
+▲ [No.2]
